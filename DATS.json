@@ -1,96 +1,249 @@
 {
-    "title": "3-step CPCA",
-    "description": "This repository contains all the data and code necessary to reproduce all the results in the paper -\"Item-specific overlap between hallucinatory experiences and cognition in the general population:  A three-step multivariate analysis of international multi-site data\". The paper is published in Cortex: https://www.sciencedirect.com/science/article/pii/S0010945221003099",
-    "creators": [
+  "title": "3-step CPCA",
+  "description": "Data and MATLAB analysis code for the paper \"Item-specific overlap between hallucinatory experiences and cognition in the general population: A three-step multivariate analysis of international multi-site data\" (Cortex, 2021). The data are an anonymized subset of a large international multi-site dataset: measures from consonant-vowel dichotic listening, matrix reasoning, a source memory task, backwards digit span and auditory signal detection (lab data collection only), with item-level responses to the Cardiff Anomalous Perceptions Scale (CAPS) and the Launay-Slade Hallucination Scale - Extended (LSHS-E). Age is binned and gender removed. Main.m reproduces the analyses, figures and tables of the paper. The full dataset of the original study is on OSF: https://osf.io/eqy76/",
+  "creators": [
+    {
+      "fullName": "Abhijit M Chinchani",
+      "firstName": "Abhijit",
+      "middleInitial": "M",
+      "lastName": "Chinchani",
+      "affiliations": [
         {
-            "name": "Abhijit Mahesh Chinchani"
-        },
-        {
-            "name": "Jeffrey LeDue"
-        },
-        {
-            "name": "UBC Brain Circuits Cluster"
+          "name": "The University of British Columbia"
         }
-    ],
-    "version": "2022-03-18T20:17:25.995372",
-    "privacy": "open",
-    "types": [
+      ],
+      "roles": [
         {
-            "information": {
-                "value": "dataset"
+          "value": "Contributor"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "ORCID",
+          "values": [
+            {
+              "value": "https://orcid.org/0000-0001-5950-4332"
             }
+          ]
         }
-    ],
-    "licenses": [
+      ]
+    },
+    {
+      "name": "Jeffrey LeDue"
+    },
+    {
+      "name": "The University of British Columbia",
+      "abbreviation": "UBC"
+    },
+    {
+      "name": "UBC Dynamic Brain Circuits Cluster",
+      "abbreviation": "DBC"
+    },
+    {
+      "name": "Cognitive Neuroscience of Schizophrenia Lab",
+      "abbreviation": "CNoS"
+    }
+  ],
+  "version": "1.0",
+  "privacy": "open",
+  "types": [
+    {
+      "information": {
+        "value": "Psychophysics"
+      }
+    },
+    {
+      "information": {
+        "value": "Neuropsychological assessment"
+      }
+    },
+    {
+      "information": {
+        "value": "Cognitive assessment"
+      }
+    }
+  ],
+  "licenses": [
+    {
+      "name": "UBC Software License - Academic (research and academic use only, no commercial use)",
+      "identifier": {
+        "identifier": "https://osf.io/download/y25w8/",
+        "identifierSource": "URL"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "value": "Hallucinations"
+    },
+    {
+      "value": "Cognition"
+    },
+    {
+      "value": "Multivariate analysis"
+    },
+    {
+      "value": "Signal detection"
+    },
+    {
+      "value": "Dichotic listening"
+    }
+  ],
+  "distributions": [
+    {
+      "size": 3.1,
+      "unit": {
+        "value": "MB"
+      },
+      "access": {
+        "landingPage": "https://osf.io/aeg5d/",
+        "accessURL": "https://files.us.osf.io/v1/resources/aeg5d/providers/osfstorage/?zip=",
+        "authorizations": [
+          {
+            "value": "public"
+          }
+        ]
+      },
+      "formats": [
+        "CSV",
+        "MATLAB"
+      ]
+    }
+  ],
+  "extraProperties": [
+    {
+      "category": "source",
+      "values": [
         {
-            "name": "Other"
+          "value": "osf"
         }
-    ],
-    "keywords": [
+      ]
+    },
+    {
+      "category": "osf_node_id",
+      "values": [
         {
-            "value": "N/A"
+          "value": "aeg5d"
         }
-    ],
-    "distributions": [
+      ]
+    },
+    {
+      "category": "files",
+      "values": [
         {
-            "size": 3.1,
-            "unit": {
-                "value": "MB"
-            },
-            "access": {
-                "landingPage": "https://osf.io/aeg5d/",
-                "accessURL": "https://files.us.osf.io/v1/resources/aeg5d/providers/osfstorage/?zip=",
-                "authorizations": [
-					{
-						"value": "public"
-					}
-				]
-            },
-            "formats": [
-                "N/A"
-            ]
+          "value": "42"
         }
-    ],
-    "extraProperties": [
+      ]
+    },
+    {
+      "category": "subjects",
+      "values": [
         {
-            "category": "source",
-            "values": [
-                {
-                    "value": "osf"
-                }
-            ]
+          "value": "1394"
+        }
+      ]
+    },
+    {
+      "category": "CONP_status",
+      "values": [
+        {
+          "value": "Canadian"
+        }
+      ]
+    },
+    {
+      "category": "contact",
+      "values": [
+        {
+          "value": "Abhijit Chinchani, abhijitchinchani@gmail.com"
+        }
+      ]
+    },
+    {
+      "category": "derivedFrom",
+      "values": [
+        {
+          "value": "https://osf.io/eqy76/"
+        }
+      ]
+    },
+    {
+      "category": "parent_dataset_id",
+      "values": [
+        {
+          "value": "https://doi.org/10.17605/OSF.IO/EQY76"
+        }
+      ]
+    },
+    {
+      "category": "REB_statement",
+      "values": [
+        {
+          "value": "In submitting this dataset for inclusion, I declare that participants have provided a valid informed consent to the de-identification and deposit of their data in an open-access portal."
+        }
+      ]
+    }
+  ],
+  "primaryPublications": [
+    {
+      "title": "Item-specific overlap between hallucinatory experiences and cognition in the general population: A three-step multivariate analysis of international multi-site data",
+      "publicationVenue": "Cortex",
+      "authors": [
+        {
+          "fullName": "Abhijit M. Chinchani"
+        }
+      ],
+      "dates": [],
+      "identifier": {
+        "identifier": "10.1016/j.cortex.2021.08.014",
+        "identifierSource": "DOI"
+      }
+    }
+  ],
+  "isAbout": [
+    {
+      "name": "Homo sapiens",
+      "identifier": {
+        "identifier": "https://www.ncbi.nlm.nih.gov/taxonomy/9606",
+        "identifierSource": "NCBI Taxonomy Database"
+      }
+    }
+  ],
+  "spatialCoverage": [
+    {
+      "name": "International",
+      "description": "data collected online and from 11 centers, 5 in UK, one in each of the following countries, France, Netherlands, Czech Republic, Norway, Canada, and Australia"
+    }
+  ],
+  "acknowledges": [
+    {
+      "name": "Grants",
+      "funders": [
+        {
+          "name": "Wellcome Trust grant"
         },
         {
-            "category": "osf_node_id",
-            "values": [
-                {
-                    "value": "aeg5d"
-                }
-            ]
+          "name": "NHMRC senior research fellowship"
         },
         {
-            "category": "files",
-            "values": [
-                {
-                    "value": "42"
-                }
-            ]
+          "name": "NHMRC New Investigator project grant"
         },
         {
-            "category": "subjects",
-            "values": [
-                {
-                    "value": "N/A"
-                }
-            ]
+          "name": "Canadian Open Neuroscience Platform (CONP), Brain Canada"
         },
         {
-            "category": "CONP_status",
-            "values": [
-                {
-                    "value": "Canadian"
-                }
-            ]
+          "name": "Internal Grant Agency of the Ministry of Health of the Czech Republic"
+        },
+        {
+          "name": "ERC Advanced Grant"
+        },
+        {
+          "name": "Helse-Vest Samarbeidsorganet"
+        },
+        {
+          "name": "Research Council of Norway"
         }
-    ]
+      ]
+    }
+  ]
 }
